@@ -44,6 +44,13 @@ export default function LoveApp() {
         </button>
 
         <button
+          onClick={() => setShowConfetti(true)}
+          className="px-6 py-3 rounded-2xl text-white font-semibold text-lg shadow-lg bg-gradient-to-r from-red-500 to-pink-400 hover:scale-110 transition-transform"
+        >
+          E V E T
+        </button>
+
+        {/* <button
           ref={noBtnRef}
           onMouseEnter={moveNoButton}
           onTouchStart={moveNoButton}
@@ -53,7 +60,7 @@ export default function LoveApp() {
           style={noBtnMoved ? noBtnPos : {}}
         >
           Hayır 😢
-        </button>
+        </button> */}
       </div>
     </div>
   );
